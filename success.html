@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="css/success.css">
+    <title>Grazie</title>
+    <script src="js/jquery.js"> </script>
+   
+	</head>
+	<body>
+		
+		<div class="suc_scrlc"> 
+		<div class="suc_scrlc_cont">
+			<img src="images/camera-loader.gif" class="suc_scr_img">
+			<span>il caricamento...</span>
+			</div>
+		</div>
+		<div class="suc_cont">
+			
+			<h1 class="suc_h">Benvenuto a bordo!</h1>
+			<p class="suc_p">Ti contatteremo il prima possibile</p>
+			<img src="images/grazie-png-6.png" class="suc_img">
+			
+		</div>
+		<script>
+			function load () {
+				$('.suc_scrlc').fadeOut(700);
+				$('.suc_cont').fadeIn(1700);
+			} 
+			setTimeout(load, 3000);
+		</script>
+		
+	</body>
+</html>
